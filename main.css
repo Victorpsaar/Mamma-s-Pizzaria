@@ -1,0 +1,62 @@
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color:  #fbefef;
+}
+
+header {
+    border-bottom: 1px solid #0000004f;
+}
+
+.title {
+    font-weight: bold;
+    text-align: start;
+    padding: 12px 0;
+    font-size: 1.5em;
+}
+
+.name {
+    color: #ee5253;
+    font-family: "Playwrite US Trad", sans-serif;
+}
+
+.navbar {
+    background-color: #ee5253;
+}
+
+.navbar h1, .nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container .nav-link.active {
+    background-color: #fff;
+}
+
+.carousel .carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.btn-reserva {
+    border: 1px solid #0000001d;
+    margin-top: 6px;
+    width: 100%;
+    color: #000;
+}
+
+.btn-reserva:hover {
+    background-color: #ee5253;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+footer {
+    background-color: #ee5253;
+    margin-bottom: 0;
+    color: #fff;
+}
